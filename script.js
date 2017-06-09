@@ -44,21 +44,30 @@ for (var i = 1; i <=100; i++) {
 
 //13. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `fizz` if the number is divisible by 5
 for (var i = 1; i <= 100; i++){
-	if (i % 5 === 0)
+	if (i % 5 === 0) {
 		console.log("fizz");
-    } 
+    } else {
+  console.log(i);
+}
+} 
 
 //14. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `buzz` if the number is divisible by 3
 for (var i = 1; i <= 100; i++){
-	if (i % 3 === 0)
+	if (i % 3 === 0) {
 		console.log("buzz");
-    } 
+    } else {
+  console.log(i);
+}
+} 
 
 //15. Create a for loop that counts from 1 to 100, but instead of printing `i` prints `fizzbuzz` if the number is divisible by 15
 for (var i = 1; i <= 100; i++){
-	if (i % 15 === 0)
+	if (i % 15 === 0) {
 		console.log("fizzbuzz");
-    } 
+    } else {
+  console.log(i);
+}
+}  
 
 
 //EXTRA CREDIT: Fizzbuzz
